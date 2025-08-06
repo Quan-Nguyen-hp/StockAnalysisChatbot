@@ -1,0 +1,15 @@
+stock_ai_analysis/
+│
+├── main.py                        # Chạy hệ thống
+├── data/
+│   └── loader.py                 # Lấy dữ liệu từ vnstock
+├── analysis/
+│   ├── indicators.py             # Tính toán chỉ báo kỹ thuật
+│   ├── patterns.py               # Phát hiện mô hình nến
+│   ├── volume_profile.py         # Volume Profile + VWAP
+│   └── strategy.py               # Chiến lược giao dịch
+├── visualization/
+│   ├── plot_chart.py             # Vẽ biểu đồ kỹ thuật
+│   └── dashboard.py              # Tùy chọn giao diện Plotly / Streamlit
+└── utils/
+    └── helpers.py                # Hàm hỗ trợ xử lý
